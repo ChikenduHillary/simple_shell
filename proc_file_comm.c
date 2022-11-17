@@ -56,7 +56,7 @@ int proc_file_commands(char *file_path, int *exe_ret)
 	ssize_t file, b_read, i;
 	unsigned int line_size = 0;
 	unsigned int old_size = 120;
-	har *line, **args, **front;
+	char *line, **args, **front;
 	char buffer[120];
 	int ret;
 
